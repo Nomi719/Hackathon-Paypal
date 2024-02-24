@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: ;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+.img-1{
+    margin: 0 20px;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+.navbar li a{
+    text-decoration: none;
+    justify-content: flex-start; 
+    margin: 0 10px;
+    padding: 10px 10px;   
+    font-size: 20px;
+    color: blue;
+    
+
+}
+.subnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+.subnav p{
+    margin: 10px 50px;
+    font-size: 20px;
+    color: blue;
+}
+.btnclass {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.btnclass button{
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+.btn-1{
+    color: blue;
+    font-size: 20px ;
+    border: 2px solid blue;
+    background-color: white;
+}
+.btn-2{
+    color: white;
+    font-size: 20px solid;
+    border: 2px solid blue;
+    background-color: blue;
+}
+.mainsec{
+    display: flex;
+    background-image: blue url(./images/background-swirls.png);
+
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    background-color: blue;
+
+}
+.container{
+    display: flex;
+}
+.leftside{
+
+}
+.leftside h1{
+    color: white;
+    font-size: 4rem;
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.leftside p{
+    color: lightblue;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.scan{
+    margin: 50px 0;
+}
+.phone{
+    margin: 50px 30px;
+}
+.phone input{
+    padding: 20px 30px;
+    border: none;
+}
+.scanphone{
+    display: flex;
+}
+.link{
+    display: block;
+  margin: 20px 30px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    
+}
+.endtext{
+    font-size: 15px;
+    line-height: 1rem;
+    margin: -2px 0;
+}
+    
+
+.rightside{
+    margin: 70px 30px ;
+}
+.textone{
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.imgphone img{
+    width: 390px;
+    height: 370px;
+    margin: 50px 50px;
+    
+}
+.main-2{
+    display: flex;
+}
+.imgtext{
+    margin: 40px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.main-2 h2,p{
+    margin: 50px 40px;
+}
+.main-2 h2{
+    font-size: 4rem;
+}
+.main-2 a{
+    margin: 8px 30px;
+}
+.imgphone2 img{
+    width: 390px;
+    height: 300px;
+    margin: 20px 50px;
+}
+.main-3{
+    display: flex;
+}
+.imgtext2{
+    margin: 50px 50px;
+
+}
+.imgtext2 h2{
+    font-size: 3rem;
+}
+.imgtext2 p{
+    font-size: 1rem;
+}
+.end{
+    background-color: blue;
+    width: 100%;
+    height: 80vh;
+}
+.end h2{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.button5 button{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    margin-left: 100px;
+    justify-content: center;
+
+}
